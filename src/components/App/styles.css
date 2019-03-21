@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.newTodo {
+  width: 300px;
+}
+.newTodoContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 390px;
+}
+.row {
+  flex-direction: row;
+}
+

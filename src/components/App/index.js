@@ -1,5 +1,6 @@
 import withHandlers from 'recompose/withHandlers';
 import compose from 'recompose/compose';
+import pure from 'recompose/pure';
 import withState from 'recompose/withState';
 import { generate } from 'shortid';
 import App from './App';
@@ -31,5 +32,5 @@ export default compose(
       ]);
     }
   }),
-
+  pure(),
 )(App);

@@ -19,3 +19,9 @@
   flex-direction: row;
 }
 
+.todosContainer {
+  padding: 12px;
+  radius: 5px;
+  width: 500px;
+  margin: 22px;
+}

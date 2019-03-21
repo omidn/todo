@@ -10,7 +10,7 @@ export default compose(
   withHandlers({
     onClickHandler: ({ todos, newTodo, setNewTodo, setTodos }) => () => {
       // set the new item to the todo list and clear the newTodo text
-      setTodos(todos.cnoncat({
+      setTodos(todos.concat({
         text: newTodo,
         done: false,
         id: generate(),

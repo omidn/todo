@@ -16,7 +16,7 @@ const  App = ({
   <div className={styles.container}>
     <section className={classnames(styles.row, styles.newTodoContainer)}>
       <TextField className={styles.newTodo} onChange={onInputTextChanged} value={newTodo} />
-      <Button className={styles.addButton} variant="contained" color="primary" onClick={onClickHandler} >
+      <Button className={styles.addButton} variant="contained" color="primary" onClick={onClickHandler}>
         Add
       </Button>
     </section>

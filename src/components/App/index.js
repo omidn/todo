@@ -32,5 +32,4 @@ export default compose(
       ]);
     }
   }),
-  pure(),
 )(App);
